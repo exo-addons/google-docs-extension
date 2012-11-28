@@ -42,12 +42,17 @@ Step 3 : Enable Drive API
 - Go to the Google API Console : https://code.google.com/apis/console/
 - Create an new API project
 - In the Services page, enable the Drive API
+
+![Google Drive API](https://raw.github.com/exo-addons/google-docs-extension/master/readme-resources/google-drive-api.png)
+
 - In the API Access page, click on the "Create an OAuth 2.0 client ID..." button
 - Fill the form with a product name of your choice, an optionnally a product logo and a home page URL
 - Click Next
 - Select the "Service account" option
 - Click on "Create client ID"
-- Download the private key and save it on your eXoPlatform server
+- Download the private key and save it on your eXoPlatform server's file system
+
+![Google Drive API Access](https://raw.github.com/exo-addons/google-docs-extension/master/readme-resources/google-drive-key.png)
 
 Step 4 : Configure the extension 
 --------------------------------
@@ -59,7 +64,7 @@ Step 4 : Configure the extension
     google-docs.accountEmail=mygreatcompany@gmail.com
     google-docs.privateKeyFilePath=/path/to/my/private/key/4314ebd80f114feef1f19ad6e8b27ad144847144-privatekey.p12
 
-The google-docs.serviceEmail parameter is the Client ID of the service account.
+The google-docs.serviceEmail parameter is the Client ID of the service account (available in your Google console, see previous screenshot).
 The google-docs.accountEmail parameter is your Google account.
 The google-docs.privateKeyFilePath parameter is the path to your previously downloaded private key.
 
@@ -77,6 +82,9 @@ Step 6 : Add the Google Docs buttons
 - Edit the view you want to add the buttons in, for example WCM View
 - Click on the tab you want to add the buttons in, for example Publication
 - Select the 2 buttons "Edit in Google Docs" and "Check In from Google Docs"
+
+![Add buttons](https://raw.github.com/exo-addons/google-docs-extension/master/readme-resources/add-buttons.png)
+
 - Save
 
 User Guide
@@ -84,10 +92,19 @@ User Guide
 
 - Go to the Sites Explorer
 - Open a document (with a type supported by Google Docs : docx, xlsx, txt, ...). A button "Edit in Google Docs" appears in the action bar
+
+![Edit in Google Docs](https://raw.github.com/exo-addons/google-docs-extension/master/readme-resources/edit-in-google-docs.png)
+
 - Click on this button. The document will be uploaded to Google Docs and you will be redirected to this document in Google Docs
 - Make some changes in your document
+
+![Doc in Google Docs](https://raw.github.com/exo-addons/google-docs-extension/master/readme-resources/doc-in-google-docs.png)
+
 - Come back to the Sites Explorer, a new button "Checkin from Google Docs" is available
-- Click on this button. Your content is now up to date !
+
+![Checkin from Google Docs](https://raw.github.com/exo-addons/google-docs-extension/master/readme-resources/checkin-from-googledocs.png)
+
+- Click on this button. Your content is now up to date in eXoPlatform !
 
 Of course, thanks to Google Docs, several users can edit the content simultaneously !
 
