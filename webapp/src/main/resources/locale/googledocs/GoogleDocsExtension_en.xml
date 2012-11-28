@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <UIViewFormTabPane>
+    <label>
+      <googleDocsCheckin>Edit in Google Docs</googleDocsCheckin>
+      <googleDocsCheckout>Check In from Google Docs</googleDocsCheckout>
+    </label>
+  </UIViewFormTabPane> 
+  <UIActionBar>
+    <tooltip>
+	  <GoogleDocsCheckout>Edit in Google Docs</GoogleDocsCheckout>
+	  <GoogleDocsCheckin>Check In from Google Docs</GoogleDocsCheckin>
+    </tooltip>
+    <msg>
+      <googledocs>
+        <edit-doc>Go to {0} to edit the document</edit-doc>
+        <checkout-error>Error when checking out the document</checkout-error>
+        <not-supported-format>This type of document can't be edited in Google Docs</not-supported-format>
+        <not-in-google-docs>This document does not exist in Google Docs</not-in-google-docs>
+        <user-not-found>User not found</user-not-found>
+        <no-user-email>Your email has not been found. It is mandatory to edit in Google Docs.</no-user-email>
+        <checkin-error>Error when checking in the document</checkin-error>
+      </googledocs>
+    </msg>
+  </UIActionBar>
+</bundle>
+

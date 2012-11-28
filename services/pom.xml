@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.exoplatform</groupId>
+		<artifactId>googledocs-extension</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>googledocs-extension-services</artifactId>
+	<name>eXo Google Docs Extension Services</name>
+	<description>eXo Google Docs Extension Services</description>
+	<packaging>jar</packaging>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.exoplatform.commons</groupId>
+			<artifactId>exo.platform.commons.webui.ext</artifactId>
+			<version>${org.exoplatform.commons.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.exoplatform.ecms</groupId>
+			<artifactId>exo-ecms-core-webui</artifactId>
+			<version>${org.exoplatform.ecms.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.exoplatform.ecms</groupId>
+			<artifactId>exo-ecms-core-webui-explorer</artifactId>
+			<version>${org.exoplatform.ecms.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.exoplatform.ecms</groupId>
+			<artifactId>exo-ecms-core-publication-plugins</artifactId>
+			<version>${org.exoplatform.ecms.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.exoplatform.portal</groupId>
+			<artifactId>exo.portal.webui.core</artifactId>
+			<version>${org.exoplatform.portal.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.api-client</groupId>
+			<artifactId>google-api-client</artifactId>
+			<version>${google.api.client.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-drive</artifactId>
+			<version>${google.api.services.drive.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

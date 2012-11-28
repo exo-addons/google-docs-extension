@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd http://www.exoplatform.org/xml/ns/kernel_1_2.xsd"
+   xmlns="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd">
+
+	<component>
+		<type>org.exoplatform.googledocs.services.GoogleDriveService</type>
+		<init-params>
+			<value-param>
+				<name>serviceEmail</name>
+				<value>${google-docs.serviceEmail}</value>
+			</value-param>
+			<value-param>
+				<name>accountEmail</name>
+				<value>${google-docs.accountEmail}</value>
+			</value-param>
+			<value-param>
+				<name>privateKeyFilePath</name>
+				<value>${google-docs.privateKeyFilePath}</value>
+			</value-param>
+		</init-params>
+	</component>
+
+</configuration>

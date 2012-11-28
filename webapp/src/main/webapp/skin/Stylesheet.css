@@ -1,0 +1,7 @@
+.UIActionBar .GoogleDocsCheckoutIcon {
+	background: url("/googledocs-extension/skin/images/google_docs_checkout_icon_24_24.png") no-repeat scroll left center transparent;
+}
+
+.UIActionBar .GoogleDocsCheckinIcon {
+	background: url("/googledocs-extension/skin/images/google_docs_checkin_icon_24_24.png") no-repeat scroll left center transparent;
+}
