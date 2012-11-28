@@ -36,6 +36,20 @@ Create a file called googledocs-extension.xml in EXO\_TOMCAT\_ROOT\_FOLDER/conf/
 
     <Context path="/googledocs-extension" docBase="googledocs-extension" debug="0" reloadable="true" crossContext="true"/>
 
+Download the [Google Drive Java Client](http://code.google.com/p/google-api-java-client/wiki/APIs#Drive_API) and copy the following libs in EXO\_TOMCAT\_ROOT\_FOLDER/lib :
+
+- google-api-services-drive-v2-rev5-1.7.2-beta.jar
+- google-api-client-1.10.3-beta.jar
+- google-http-client-1.10.3-beta.jar
+- google-oauth-client-1.10.1-beta.jar
+- gson-2.1.jar
+- guava-11.0.1.jar
+- httpclient-4.0.3.jar
+- jackson-core-asl-1.9.4.jar
+- jsr305-1.3.9.jar
+- protobuf-java-2.2.0.jar
+
+
 Step 3 : Enable Drive API
 -------------------------
 
