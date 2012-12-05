@@ -72,14 +72,15 @@ Step 4 : Configure the extension
 --------------------------------
 
 - Open the file EXO\_TOMCAT\_ROOT\_FOLDER/gatein/conf/configuration.properties of your eXoPlatform server
-- Add the 3 following variables :
+
+Add the 3 following variables :
 
     google-docs.serviceEmail=755138841809@developer.gserviceaccount.com
     google-docs.accountEmail=mygreatcompany@gmail.com
     google-docs.privateKeyFilePath=/path/to/my/private/key/4314ebd80f114feef1f19ad6e8b27ad144847144-privatekey.p12
 
-The google-docs.serviceEmail parameter is the Client ID of the service account (available in your Google console, see previous screenshot).
-The google-docs.accountEmail parameter is your Google account.
+The google-docs.serviceEmail parameter is the Client ID of the service account (available in your Google console, see previous screenshot).  
+The google-docs.accountEmail parameter is your Google account.  
 The google-docs.privateKeyFilePath parameter is the path to your previously downloaded private key.
 
 Step 5 : Run
