@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.exoplatform</groupId>
 	<artifactId>googledocs-extension</artifactId>
-	<version>0.2.0</version>
+	<version>0.3.0-SNAPSHOT</version>
 	<name>eXo Google Docs Extension</name>
 	<description>eXo Google Docs Extension</description>
 	<packaging>pom</packaging>
