@@ -37,6 +37,12 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.exoplatform.ecms</groupId>
+			<artifactId>exo-ecms-core-viewer</artifactId>
+			<version>${org.exoplatform.ecms.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.exoplatform.portal</groupId>
 			<artifactId>exo.portal.webui.core</artifactId>
 			<version>${org.exoplatform.portal.version}</version>
