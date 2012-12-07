@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.exoplatform</groupId>
 		<artifactId>googledocs-extension</artifactId>
-		<version>0.2.0-SNAPSHOT</version>
+		<version>0.2.0</version>
 	</parent>
 	<artifactId>googledocs-extension-config</artifactId>
 	<name>eXo Google Docs Extension Config</name>
