@@ -10,6 +10,9 @@ Getting Started
 
 Step 1 :  Build 
 ----------------
+
+_Note : Instead of building from sources, you can download the last stable version on the [Downloads page](https://github.com/exo-addons/google-docs-extension/downloads)._
+
 Prerequisite : install [Maven 3](http://maven.apache.org/download.html)
 
 Clone the project with
